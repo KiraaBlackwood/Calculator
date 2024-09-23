@@ -1,0 +1,64 @@
+html,
+body {
+    height: 100%;
+    background-image: url("/img/background.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    background-color: rgb(252, 245, 229);
+    border-radius: 15px;
+    height: 411px;
+    width: 300px;
+    position: absolute;  /*разобрать блок с 17 по 22*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border: 2.5px solid rgb(44, 55, 41);
+    box-shadow: 5px 5px 2px rgb(44, 55, 41);
+}
+
+.display{
+    width: 100%;
+    height: 81.3px;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.buttons{
+    height: 300px;
+    border-radius: 15px;
+    background-color: rgb(185, 243, 238);
+}
+button{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    width: 20%;
+    height: 60px;
+    margin: 7px 5px;
+    background-color: rgb(252, 245, 229);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(44, 55, 41);
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    /* width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+    background-color: rgb(255, 235, 210);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black; */
+}
