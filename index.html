@@ -7,28 +7,41 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="main" >
-        <input type="text" class="display" disabled>
-        <div class="buttons">
-            
-            <button class="plus">+</button>
-            <button class="minus">-</button>
-            <button class="devide">/</button>
-            <button class="times">*</button>
-            <button class="1">1</button>
-            <button class="2">2</button>
-            <button class="3">3</button>
-            <button class="4">4</button>
-            <button class="5">5</button>
-            <button class="6">6</button>
-            <button class="7">7</button>
-            <button class="8">8</button>
-            <button class="9">9</button> 
-            <button class="0">0</button>
-            <button class="delete">del</button>
-            <button class="equal">=</button>
-            
+    <div class="body">
+        <div class="results">
+          <div id="result"></div>
+          <div id="expression"></div>
         </div>
-    </div>
+        <div class="numbers">
+          <button class="number" id="7">7</button>
+          <button class="number" id="8">8</button>
+          <button class="number" id="9">9</button>
+          
+          <button class="number" id="4">4</button>
+          <button class="number" id="5">5</button>
+          <button class="number" id="6">6</button>
+          
+          <button class="number" id="1">1</button>
+          <button class="number" id="2">2</button>
+          <button class="number" id="3">3</button>
+          
+          <button class="number" id="0">0</button>
+          <button class="number" id=".">.</button>
+          <button class="equals" id="=">=</button>
+        </div>
+        
+        <div class="operations">
+          <button class="operation" id="*">×</button>
+          <button class="operation" id="/">÷</button>
+          <button class="operation" id="+">+</button>
+          <button class="operation" id="-">-</button>
+        </div>
+        <div class="clears">
+          <button id="clear">AC</button>
+          <button id="ce">CE</button>
+        </div>
+      </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
